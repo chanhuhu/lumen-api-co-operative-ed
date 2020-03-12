@@ -22,3 +22,24 @@ If you discover a security vulnerability within Lumen, please send an e-mail to 
 ## License
 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+todo
+
+-เพิ่มความหน้าเชื่อถือของ CV
+
+-ลดการปรุงแต่งเกินความสามารถ CV ของนักศึกษา
+
+-ได้รับการ Review code แบบ Enterprise เพิ่มเติมว่าสามารถอ่านง่ายหรือเปล่า เพราะ ในวันการนำเสนอ
+ไม่มีการแนะนำส่วนนี้ เนื่องจากการไปทำงานจริงคุณภาพของ Code สำคัญ
+
+-แลกเปลี่ยนความรู้ของนักศึกษาแต่ละบริษัท
+
+-[]ระบบจัดการสหกิจศึกษา
+
+-[]assessment
+
+-[]สร้าง portfolio จากที่ แต่ละ send project หลังฝึกงาน ไป
+
+-[]ทักษะและคำรับรอง
+
+-[]ติดตามผล
