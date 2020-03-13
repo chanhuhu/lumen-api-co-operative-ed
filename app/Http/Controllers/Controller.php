@@ -45,20 +45,21 @@ class Controller extends BaseController
                     $user->skills()->attach($item);
                 } else {
                     //return error because server can't insert a record
-                    $this->responseRequestError("เซิฟเวอร์มีปัญหา", 500);
+                    return $this->responseRequestError("เซิฟเวอร์มีปัญหา", 500);
                 }
             }
-            $this->responseRequestSuccess("เพิ่มทักษะสำเร็จ");
         }
+        return $this->responseRequestSuccess($user);
 
     }
 
-    //find the best intern for your company
-    public function getBestIntern(Request $request)
+    //find the best intern for your company parameter enterprise_id
+    public function getBestIntern(Request $request, $id)
     {
         //receive request skills that enterprise want to
         $enterpriseWishSkillLists = $request->enterpriseWishSkillLists;
         $studentSkillLists = User::with('skill')
+            ->where('enterprise_id', $id)
             ->get();
         /* enterprise wish lists = ["java", "c#"]
            student skill lists = { "john": ["c#", "java"] case1 perfect match
