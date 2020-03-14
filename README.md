@@ -1,4 +1,4 @@
-# code smell
+# Code smell
 
 รู้ดีแก่ใจแต่ ไม่ทำเซอร์วิส และ ไม่แยกไฟล์ app\Http\Controllers\Controller.php
 
