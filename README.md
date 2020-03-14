@@ -1,6 +1,6 @@
 # code smell
 
-รู้แก่ใจดีแต่ ไม่แยกไฟล์
+รู้ดีแก่ใจแต่ ไม่ทำเซอร์วิส และ ไม่แยกไฟล์ app\Http\Controllers\Controller.php
 
 # Lumen PHP Framework
 
