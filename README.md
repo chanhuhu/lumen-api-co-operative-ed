@@ -1,3 +1,7 @@
+# code smell
+
+รู้แก่ใจดีแต่ ไม่แยกไฟล์
+
 # Lumen PHP Framework
 
 [![Build State](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
@@ -23,7 +27,7 @@ If you discover a security vulnerability within Lumen, please send an e-mail to 
 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-todo
+# todo
 
 -เพิ่มความหน้าเชื่อถือของ CV
 
